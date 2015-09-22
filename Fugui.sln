@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3DApp", "D3DApp\D3DApp.vcxproj", "{AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F75DB433-9070-4129-BF14-5500DA4F4A51} = {F75DB433-9070-4129-BF14-5500DA4F4A51}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FuguiTests", "FuguiTests\FuguiTests.vcxproj", "{C5EF97E9-90E2-4B1B-B02D-78146C635D07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B3D82115-374A-4544-91EF-F1FA3A433964} = {B3D82115-374A-4544-91EF-F1FA3A433964}
+		{F75DB433-9070-4129-BF14-5500DA4F4A51} = {F75DB433-9070-4129-BF14-5500DA4F4A51}
+		{11CEE181-EFAE-4F52-B106-3F2D60324746} = {11CEE181-EFAE-4F52-B106-3F2D60324746}
+		{AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32} = {AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D2DGraphics", "D2DGraphics\D2DGraphics.vcxproj", "{B3D82115-374A-4544-91EF-F1FA3A433964}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32} = {AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXInput", "DXInput\DXInput.vcxproj", "{F75DB433-9070-4129-BF14-5500DA4F4A51}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "My3DFileExporter", "My3DFileExporter\My3DFileExporter\My3DFileExporter.vcxproj", "{11CEE181-EFAE-4F52-B106-3F2D60324746}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sound", "Sound\Sound.vcxproj", "{9086DB21-4329-43C2-9ED6-6D6C21C4E305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32}.Debug|Win32.Build.0 = Debug|Win32
+		{AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32}.Release|Win32.ActiveCfg = Release|Win32
+		{AFCC43AF-C2EE-443F-BFA2-C9A8E9D2DF32}.Release|Win32.Build.0 = Release|Win32
+		{C5EF97E9-90E2-4B1B-B02D-78146C635D07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5EF97E9-90E2-4B1B-B02D-78146C635D07}.Debug|Win32.Build.0 = Debug|Win32
+		{C5EF97E9-90E2-4B1B-B02D-78146C635D07}.Release|Win32.ActiveCfg = Release|Win32
+		{C5EF97E9-90E2-4B1B-B02D-78146C635D07}.Release|Win32.Build.0 = Release|Win32
+		{B3D82115-374A-4544-91EF-F1FA3A433964}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3D82115-374A-4544-91EF-F1FA3A433964}.Debug|Win32.Build.0 = Debug|Win32
+		{B3D82115-374A-4544-91EF-F1FA3A433964}.Release|Win32.ActiveCfg = Release|Win32
+		{B3D82115-374A-4544-91EF-F1FA3A433964}.Release|Win32.Build.0 = Release|Win32
+		{F75DB433-9070-4129-BF14-5500DA4F4A51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F75DB433-9070-4129-BF14-5500DA4F4A51}.Debug|Win32.Build.0 = Debug|Win32
+		{F75DB433-9070-4129-BF14-5500DA4F4A51}.Release|Win32.ActiveCfg = Release|Win32
+		{F75DB433-9070-4129-BF14-5500DA4F4A51}.Release|Win32.Build.0 = Release|Win32
+		{11CEE181-EFAE-4F52-B106-3F2D60324746}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11CEE181-EFAE-4F52-B106-3F2D60324746}.Debug|Win32.Build.0 = Debug|Win32
+		{11CEE181-EFAE-4F52-B106-3F2D60324746}.Release|Win32.ActiveCfg = Release|Win32
+		{11CEE181-EFAE-4F52-B106-3F2D60324746}.Release|Win32.Build.0 = Release|Win32
+		{9086DB21-4329-43C2-9ED6-6D6C21C4E305}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9086DB21-4329-43C2-9ED6-6D6C21C4E305}.Debug|Win32.Build.0 = Debug|Win32
+		{9086DB21-4329-43C2-9ED6-6D6C21C4E305}.Release|Win32.ActiveCfg = Release|Win32
+		{9086DB21-4329-43C2-9ED6-6D6C21C4E305}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
